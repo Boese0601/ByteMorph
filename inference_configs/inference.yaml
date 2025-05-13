@@ -12,13 +12,13 @@ data_config:
   eval_batch_size: 1
   num_workers: 0
   img_size: 512
-  img_dir: ./SeedMorph-Bench-Test/
+  img_dir: ./ByteMorph-Bench-Test/
   grayscale_editing: false
   zoom_camera: false
   random_ratio: false
 report_to: wandb
 eval_batch_size: 1
-ckpt_dir: ./pretrained_weights/SeedMorpher/dit.safetensors
+ckpt_dir: ./pretrained_weights/ByteMorpher/dit.safetensors
 output_dir: ./test_log/seedmorpher/
 logging_dir: logs
 mixed_precision: "bf16"

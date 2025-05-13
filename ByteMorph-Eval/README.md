@@ -5,7 +5,7 @@
 
 #### 2. Install related packages
 ```bash
-cd ./SeedMorph-Eval
+cd ./ByteMorph-Eval
 conda create -n seedmorph_eval python=3.10
 conda activate seedmorph_eval
 pip3 install -r requirements.txt

@@ -12,13 +12,13 @@ data_config:
   train_batch_size: 1
   num_workers: 4
   img_size: 512
-  img_dir: ./SeedMorph-Bench-Train/
+  img_dir: ./ByteMorph-Bench-Train/
   grayscale_editing: false
   zoom_camera: false
   random_ratio: false # true # support multi crop preprocessing
 report_to: wandb
 train_batch_size: 1
-output_dir: ./train_log/SeedMorpher/
+output_dir: ./train_log/ByteMorpher/
 max_train_steps: 1000000
 learning_rate: 1e-5
 lr_scheduler: constant

@@ -110,7 +110,7 @@ class ImageEditPairDataset(Dataset):
         self.random_ratio = random_ratio
         self.grayscale_editing = grayscale_editing
         self.zoom_camera = zoom_camera 
-        if "SeedMorph-Bench-Test" or "InstructMove" in img_dir:
+        if "ByteMorph-Bench-Test" or "InstructMove" in img_dir:
             self.eval = True
         else:
             self.eval = False
