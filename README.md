@@ -36,7 +36,7 @@
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Test_Benchmark-yellow'></a>
         <a href='https://huggingface.co/datasets/Boese0601/SeedMorph-Bench-Train-Demo'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Train_Dataset-yellow'></a>
-        <a href='https://huggingface.co/datasets/Boese0601/SeedMorpher'>
+        <a href='https://huggingface.co/Boese0601/SeedMorpher'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Checkpoint-yellow'></a>
      </br>
 </p>
@@ -45,7 +45,7 @@
 -----
 
 <p align="center">
-  <img src="./assets/figures/Dataset_demo.png"  height=100>
+  <img src="./assets/figures/Dataset_demo.png"  height=220>
 </p>
 
 This repo is the official pytorch implementation of SeedMorph, include training, inference and evaluation. 
