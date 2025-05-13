@@ -1,7 +1,7 @@
 
 <p align="center">
 
-  <h2 align="center">SeedMorph: Benchmarking Instruction-Guided Image Editing <br> with Non-Rigid Motions</h2>
+  <h2 align="center">ByteMorph: Benchmarking Instruction-Guided Image Editing <br> with Non-Rigid Motions</h2>
   <p align="center">
       <a href="https://boese0601.github.io/">Di Chang</a><sup>1,2*</sup>
       ·
@@ -31,11 +31,11 @@
     <sup>*</sup> denotes equal contribution
     <br>
     </br>
-        <a href='https://huggingface.co/datasets/Boese0601/SeedMorph-Bench-Test'>
+        <a href='https://huggingface.co/datasets/Boese0601/ByteMorph-Bench-Test'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Test_Benchmark-yellow'></a>
-        <a href='https://huggingface.co/datasets/Boese0601/SeedMorph-Bench-Train-Demo'>
+        <a href='https://huggingface.co/datasets/Boese0601/ByteMorph-Bench-Train-Demo'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Train_Dataset-yellow'></a>
-        <a href='https://huggingface.co/Boese0601/SeedMorpher'>
+        <a href='https://huggingface.co/Boese0601/ByteMorpher'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Checkpoint-yellow'></a>
      </br>
 </p>
@@ -47,7 +47,7 @@
   <img src="./assets/figures/Dataset_demo.png"  height=220>
 </p>
 
-This repo is the official pytorch implementation of SeedMorph, include training, inference and evaluation. 
+This repo is the official pytorch implementation of ByteMorph, include training, inference and evaluation. 
 
 
 
@@ -61,8 +61,8 @@ This repo is the official pytorch implementation of SeedMorph, include training,
 
 Clone the repository:
 ```shell
-git clone https://github.com/Boese0601/SeedMorph
-cd SeedMorph
+git clone https://github.com/Boese0601/ByteMorph
+cd ByteMorph
 ```
 
 ### Installation Guide
@@ -83,7 +83,7 @@ bash env_torch2_install.sh
 ```
 
 ## 🧱 Download Pretrained Models
-We follow the implementation details in our paper and release pretrained weights of the Diffusion Transformer in [this huggingface repository](https://huggingface.co/Boese0601/SeedMorpher). After downloading, please put it under the [pretrained_weights](pretrained_weights/) folder. 
+We follow the implementation details in our paper and release pretrained weights of the Diffusion Transformer in [this huggingface repository](https://huggingface.co/Boese0601/ByteMorpher). After downloading, please put it under the [pretrained_weights](pretrained_weights/) folder. 
 
 The Flux.1-dev VAE and DiT can be found [here](https://huggingface.co/black-forest-labs/FLUX.1-dev). The Google-T5 encoder can be found [here](https://huggingface.co/XLabs-AI/xflux_text_encoders). The CLIP encoder can be found [here](https://huggingface.co/openai/clip-vit-large-patch14).
 
@@ -92,7 +92,7 @@ Please place then under [./pretrained_weights/](pretrained_weights/).
 Your file structure should look like this:
 
 ```bash
-SeedMorph
+ByteMorph
 |----...
 |----pretrained_weights
   |----models--black-forest-labs--FLUX.1-dev
@@ -103,7 +103,7 @@ SeedMorph
     |----...
   |----models--openai--clip-vit-large-patch14 
     |----...
-  |----SeedMorpher
+  |----ByteMorpher
     |----dit.safetensors
 |----...
 ``` 
@@ -113,7 +113,7 @@ SeedMorph
 ### Using Command Line
 
 ```bash
-cd SeedMorph
+cd ByteMorph
 # Train
 bash scripts/train/train.sh
 
@@ -126,10 +126,10 @@ The config files for trainig and inference can be found in [this file](train_con
 The DeepSpeed config file for training is [here](train_configs/deepspeed_stage2.yaml).
 
 ## Evaluation
-Please visit [this page](./SeedMorph-Eval/README.md).
+Please visit [this page](./ByteMorph-Eval/).
 
 ## 🔗 BibTeX
-If you find [SeedMorph]() useful for your research and applications, please cite SeedMorph using this BibTeX:
+If you find [ByteMorph]() useful for your research and applications, please cite ByteMorph using this BibTeX:
 
 ```BibTeX
 ```
