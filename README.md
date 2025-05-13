@@ -1,7 +1,7 @@
 
 <p align="center">
 
-  <h2 align="center">SeedMorph: Benchmarking Instruction-Guided Image Editing with Non-Rigid Motions</h2>
+  <h2 align="center">SeedMorph: Benchmarking Instruction-Guided Image Editing <br> with Non-Rigid Motions</h2>
   <p align="center">
       <a href="https://boese0601.github.io/">Di Chang</a><sup>1,2*</sup>
       ·
@@ -15,7 +15,6 @@
     ·  
       <a href="https://shijiezhou-ucla.github.io/">Shijie Zhou</a><sup>6</sup>
     <br>
-    · 
       <a href="https://scholar.google.com/citations?user=78vU1IUAAAAJ&hl=en">Weilin Huang</a><sup>1</sup>
     · 
       <a href="https://web.stanford.edu/~gordonwz/">Gordon Wetzstein</a><sup>5</sup>
