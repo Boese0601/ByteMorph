@@ -12,7 +12,7 @@ data_config:
   train_batch_size: 1
   num_workers: 4
   img_size: 512
-  img_dir: ./ByteMorph-Bench-Train/
+  img_dir: ./ByteMorph-6M-Demo/
   grayscale_editing: false
   zoom_camera: false
   random_ratio: false # true # support multi crop preprocessing

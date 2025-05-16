@@ -12,7 +12,7 @@ data_config:
   eval_batch_size: 1
   num_workers: 0
   img_size: 512
-  img_dir: ./ByteMorph-Bench-Test/
+  img_dir: ./ByteMorph-Bench/
   grayscale_editing: false
   zoom_camera: false
   random_ratio: false

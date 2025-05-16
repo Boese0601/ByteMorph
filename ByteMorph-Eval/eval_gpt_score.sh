@@ -1,5 +1,5 @@
 GEN_DATA_ROOT=./gen_images
-GT_DATA_ROOT=./ByteMorph-Bench_test/output_bench
+GT_DATA_ROOT=./ByteMorph-Bench/output_bench
 OUTPUT_SCORE_DIR=./benchmark_eval/gpt_score
 sudo chmod -R 777 $GEN_DATA_ROOT
 
