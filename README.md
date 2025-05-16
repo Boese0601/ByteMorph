@@ -31,9 +31,9 @@
     <sup>*</sup> denotes equal contribution
     <br>
     </br>
-        <a href='https://huggingface.co/datasets/Boese0601/ByteMorph-Bench-Test'>
+        <a href='https://huggingface.co/datasets/Boese0601/ByteMorph-Bench'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Test_Benchmark-yellow'></a>
-        <a href='https://huggingface.co/datasets/Boese0601/ByteMorph-Bench-Train-Demo'>
+        <a href='https://huggingface.co/datasets/Boese0601/ByteMorph-6M-Demo'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Train_Dataset-yellow'></a>
         <a href='https://huggingface.co/Boese0601/ByteMorpher'>
         <img src='https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Checkpoint-yellow'></a>
